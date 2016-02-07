@@ -23,7 +23,7 @@ return {
   description = "Calculate math expressions with mathjs API",
   usage = "calc [number]: جواب تمرین شما",
   patterns = {
-    "^calc (.*)$"
+    "^([Cc]alc) (.*)$"
   },
   run = run
 }
