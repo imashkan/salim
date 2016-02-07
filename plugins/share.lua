@@ -6,7 +6,7 @@ end
 
 return {
 patterns = {
-"^share$"
+"^[Ss]hare$"
 
 },
 run = run
