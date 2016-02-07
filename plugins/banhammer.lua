@@ -308,8 +308,8 @@ end
 
 return {
   patterns = {
-    "^(banall) (.*)$",
-    "^(banall)$",
+    "^([Bb]anall) (.*)$",
+    "^([Bb]anall)$",
     "^([Bb]anlist) (.*)$",
     "^([Bb]anlist)$",
     "^([Gg]banlist)$",
