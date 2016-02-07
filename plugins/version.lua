@@ -2,11 +2,9 @@ do
 
 function run(msg, matches)
   return 'Bot '.. VERSION .. [[ 
-ورژن ربات: 1.5
-ایدی سودوها:
-@Xx_king_salib_Xx
-@Mr_Vigeo
-@Xx_minister_salib_xX
+ورژن ربات 4
+ایدی سودو
+@ashi_admin1_kaboos
 ]]
 end
 
@@ -14,7 +12,8 @@ return {
   description = "Shows bot version", 
   usage = "ورژن: Shows bot version",
   patterns = {
-    "^ورژن$"
+    "^ورژن$",
+    "^[Vv]ersion$"
   }, 
   run = run 
 }
