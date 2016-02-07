@@ -13,7 +13,8 @@ return {
   description = "Reply Your Sent Message",
   usage = "بگو (message) : reply message",
   patterns = {
-    "^بگو +(.+)$"
+    "^(بگو) +(.+)$",
+    "^([Ee]cho) +(.+)$"
   }, 
 	run = run,
 	moderated = true
