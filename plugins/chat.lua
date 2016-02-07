@@ -1,8 +1,8 @@
 local function run(msg)
-if msg.text == "ARJ" then
+if msg.text == "ashi" then
 	return " جونم ؟ چی شده؟"
 end
-if msg.text == "A.R.J" then
+if msg.text == "fire" then
 	return "بله ، کاری داری ؟"
 end
 if msg.text == "hi" then
@@ -68,11 +68,11 @@ end
 if msg.text == "خیلی خستم" then
         return "خسته نباشی پهلوون"
 end
-if msg.text == "Difense" then
-        return "با عموم چکار داری ؟"
+if msg.text == "اشی" then
+        return "با بابام چکار داری ؟"
 end
-if msg.text == "difense" then
-        return "با عموم چکار داری ؟"
+if msg.text == "کابوس" then
+        return "کابوس ناموست میشم"
 end
 end
 
@@ -82,19 +82,17 @@ return {
 	patterns = {
 		"^[Hh]i$",
 		"^[Hh]ello$",
-		"^[Zz]ac$",
-		"^ZAC$",
 		"^[Bb]ot$",
 		"^[Uu]mbrella$",
 		"^[Bb]ye$",
 		"^?$",
 		"^[Ss]alam$",
                 "^[Gg]oh nakhor$",
-                "^sik :D$",
+                "^[Ss]ik :D$",
                 "^[Bb]ashe$",
-                "^ARJ$",
-                "^A.R.J$",
-                "^[Dd]ifense$",
+                "^[Aa]shi$",
+                "^[Ff]ire$",
+                "^اشی$",
                 "^گه نخور$",
                 "^ربات$",
                 "^کس ننت$",
