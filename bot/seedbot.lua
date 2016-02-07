@@ -247,97 +247,82 @@ function create_config( )
     "location",
     "spammer"
     },
-    sudo_users = {136888679,164100672,167268835},
+    sudo_users = {81444630},
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[TeleSalib V1.5 - 
+    about_text = [[Telefire V4 - 
 An advance Administration bot based on yagop/telegram-bot 
 
-
+شمارا برای انتخاب فایر تحسین میکنیم😊
 Admins
-@Xx_king_salib_Xx [sudo]
-@Mr_Vigeo [sudo]
-@Xx_minister_salib_xX [sudo]
-
-Special thanks to
-@Mr_Vigeo 
-
-Our channels
-@TeleSalibCh [English]
-@TeleSalibCh [persian]
+@ashi_admin1_kaboos [sudo]
 ]],
     help_text_realm = [[
 Realm Commands:
 
-!creategroup [Name]
+creategroup [Name]
 ساختن گروه
 
-!createrealm [Name]
+createrealm [Name]
 ساختن مقر فرماندهی
 
-!setname [Name]
+setname [Name]
 تنظیم نام گروه
 
-!setabout [GroupID] [Text]
+setabout [GroupID] [Text]
 تنظیم اطلاعات یک گروه
 
-!setrules [GroupID] [Text]
+setrules [GroupID] [Text]
 تنظیم قوانین یک گروه
 
-!lock [GroupID] [setting]
+lock [GroupID] [setting]
 بستن تنظیمات یک گروه
 
-!unlock [GroupID] [setting]
+unlock [GroupID] [setting]
 بازکردن تنظیمات یک گروه
 
-!wholist
+wholist
 دیدن اعضای ریلم
 
-!who
+who
 دیدن اعضای ریلم یا گروه
 
-!type
+type
 تعداد پیام ها
 
-!kill chat [GroupID]
+kill chat [GroupID]
 خراب کردن یک گروه
 
-!kill realm [RealmID]
+kill realm [RealmID]
 خراب کردن ریلم
 
-!addadmin [id|username]
+addadmin [id|username]
 اضافه کردن مدیر به ربات
 
-!removeadmin [id|username]
+removeadmin [id|username]
 حذف مدیر از ربات
 
-!list groups
+list groups
 لیست گروه ها
 
-!list realms
+list realms
 لیست ریلم ها
 
-!log
+log
 لیست تمامی ریلم ها و گروه ها
 
-!broadcast [text]
-!broadcast Hello !
+broadcast [text]
+broadcast Hello !
 فرستادن پیام به همه گروه ها
 
-!bc [group_id] [text]
-!bc 123456789 Hello !
+bc [group_id] [text]
+bc 123456789 Hello !
 فرستادن پیام به گروه موردنظر
 
 
-**U can use both "/" and "!" 
 
 
-*Only admins and sudo can add bots in group
-
-
-*Only admins and sudo can use kick,ban,unban,newlink,setphoto,setname,lock,unlock,set rules,set about and settings commands
-
-*Only admins and sudo can use res, setowner, commands
+*sudo user:ashi_admin1_kaboos
 ]],
     help_text = [[
 Commands list :
@@ -366,98 +351,90 @@ t2i متن
 unban [id]
 حذف از بن
 
-!who
+who
 لیست اعضا
 
-!modlist
+modlist
 لیست مدیران
 
-!promote [username]
+promote [username]
 دادن مقام 
 
-!demote [username]
+demote [username]
 حذف مقام
 
 kickme
 خروج از گروه
 
-!about
+about
 اطلاعات گروه
 
-!setphoto
+setphoto
  تنظیم عکس گروه و قفل ان
 
-!setname [name]
+setname [name]
 تنظیم نام گروه و قفل ان
 
-!rules
+rules
 قوانین گروه
 
 id
 ایدی گروه و با ریپلی ایدی فرد را نشان میدهد
 
 
-!lock [member|name|bots|leave]	
+lock [member|name|bots|leave]	
 بستن اعضا - نام - ورود بات - خروج از گروه
 
-!unlock [member|name|bots|leave]
+unlock [member|name|bots|leave]
 بازکردن: اعضا- نام - ورودبات - خروج از گروه
 
-!set rules <text>
+set rules <text>
 تنظیم قوانین گروه به ...
 
-!set about <text>
+set about <text>
 تنظیم درباره گروه به ...
 
-!settings
+settings
 تنظیمات گروه
 
-!newlink
+newlink
 ساختن لینک جدید
 
-!link
+link
 لینک گروه
 
-!owner
+owner
 ایدی صاحب گروه
 
-!setowner [id]
+setowner [id]
 تنظیم صاحب گروه
 
-!setflood [value]
+setflood [value]
 تنظیم مقدار اسپم
 
-!stats
+stats
 پیام های اعضا
 
-!save [value] <text>
+save [value] <text>
 ذخیره یک دستور با متن
 
-!get [value]
+get [value]
 گرفتن دستور متن
 
-!clean [modlist|rules|about]
+clean [modlist|rules|about]
 پاک کردن - مدیران - قوانین - درباره گروه -
 
-!res [username]
+res [username]
 دریافت ایدی فردی
-"!res @username"
+res @username"
 
-!log
+log
 ورودی های گروه
 
 banlist
 لیست افراد بن شده
 
-**U can use both "/" and "!" 
-
-
-*Only owner and mods can add bots in group
-
-
-*Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
-
-*Only owner can use res,setowner,promote,demote and log commands
+**sudo user: ashi_admin1_kaboos
 
 ]]
   }
